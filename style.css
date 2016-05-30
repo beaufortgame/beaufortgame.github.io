@@ -89,17 +89,19 @@ iframe {
 
 #nav li{
 	display: inline-block;
+	height:60px;
+	line-height:60px;
 }
 #nav a{
-	display: block;
+	display: inline-block;
 	width: 120px;
 	font: bold 1em Segoe UI, Freehand, Georgia;
-	line-height: 50px;
 	text-transform: uppercase;
 	color: #222222;
 	background-Color: #FFFFFF;
 	text-align: center;
 	text-decoration: none;
+	vertical-align:middle;
 }
 #nav a:hover{
 	color: #F50;
